@@ -1,0 +1,18 @@
+name: lisk-sepolia
+chain_id: 4202
+public_rpc: https://rpc.sepolia-api.lisk.com
+sequencer_rpc: https://rpc.sepolia-api.lisk.com
+explorer: https://sepolia-blockscout.lisk.com
+
+superchain_level: 2
+
+batch_inbox_addr: 0xff00000000000000000000000000000000004202
+
+genesis:
+  l1:
+    hash: 0x7d9d6dcec39efe182119f41b1bd2aa7b35b82e43927522afea86d210a4eace4b
+    number: 5089851
+  l2:
+    hash: 0xead3e6ddd08ae7e27fd952b74ceb468ba889047ac96b351dd13bd55e5faf3372
+    number: 0
+  l2_time: 1705312992 # Mon 15 Jan 2024 10:03:12 UTC
